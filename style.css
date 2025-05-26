@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: rgb(234, 197, 86);
+    z-index: 1;
+}
+
+.container{
+    padding: 2rem 3rem;
+    margin-bottom: 5rem;
+}
+.nav-logo{
+    display: flex;
+}
+.nav-logo img{
+    width: 30px;
+    border-radius: 50%;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items:center ;
+    gap: 25px;
+}
+.nav-list li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: darkcyan;
+}
+
+
+.home__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: beige;
+  width: 100%;
+  height: 100vh;
+}
+.home__data{
+    width: 600px;
+}
+.home__img{
+    width: 400px;
+    height: 450px;
+    border-radius: 50px;
+    border: 2px solid brown;
+    margin-top: 4rem;
+}
+.home__title{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(71, 67, 67);
+}
+.home__wel{
+    margin-bottom: 3rem;
+    color:brown;
+}
+.home__description{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(100, 96, 96);
+}
+
+
+
+
+.varient__title{
+    text-align: center;
+    color: brown;
+    margin-bottom: 2rem;
+}
+.varient__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: cornsilk;
+}
+.varient__card{
+    width: 30%;
+    height: 450px;
+    min-width: 300px;
+    border: 1px solid brown;
+    border-radius: 25px;
+    padding: 18px 25px;
+    margin: 15px 0;
+    background-color: rgb(236, 223, 207);
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2);
+}
+.varient__img-1{
+    width: 220px;
+    margin-bottom: 2.6rem;
+    border-radius: 50px;
+}
+.varient__img-2{
+    width: 210px;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+}
+.varient__img-3{
+    width: 200px;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+}
+.mango__name{
+    font-size: 25px;
+    color: brown;
+}
+.mango__description{
+    font-size: 16px;
+    color: rgb(86, 66, 15);
+    margin-top: 1rem;
+}
+
+
+
+
+.market__container{
+    background-color: beige;
+}
+.market__title-1{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: brown;
+    font-size: 26px;
+}
+.market__title-2{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: rgb(169, 80, 80);
+    font-size: 20px;
+}
+.market__card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.market__data{
+    width: 450px;
+}
+.market__img{
+    width: 450px;
+    border: 3px solid brown;
+    border-radius: 40px;
+}
+.market__name{
+    font-size: 24px;
+    color: chocolate;
+    margin-bottom: 2rem;
+}
+.market__description{
+    line-height: 26px;
+}
+
+
+
+
+
+
+
+.seasson__title-1{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 1rem;
+    color: rgb(99, 22, 22);
+}
+.seasson__title-2{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.seasson__container{
+    background-image: url(images/mango-tree-2.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 7rem;
+    row-gap: 2.5rem;
+}
+.seasson__card{
+    width: 290px;
+    background-color:beige;
+    padding: 30px;
+    border-radius: 20px;
+}
+.seasson__card ul li{
+    color:brown;
+}
+
+
+
+
+    .garden-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .garden-card{
+      background: #fff;
+      border: 2px solid #ffd54f;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+    .garden-card:hover {
+      transform: scale(1.03);
+    }
+    .garden-card h2 {
+      color: #388e3c;
+      margin-bottom: 10px;
+    }
+    .garden-card p {
+      margin: 5px 0;
+    }
+    .highlight {
+      font-weight: bolt;
+    }
+    .garden__title{
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 1rem;
+        color: brown;
+    }
+
+
+
+
+
+
+
+
+    .order-section {
+  background-color: #e8f5e9;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.order-section h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+.order-section p{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.order-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.order-form button {
+  background-color: #ffca28;
+  color: #000;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.order-form button:hover {
+  background-color: #fbc02d;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  /* ===== Header & Navigation ===== */
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    height: auto;
+    position: relative;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-bar {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .nav-list li a {
+    font-size: 1rem;
+  }
+
+  /* ===== Home Section ===== */
+  .home__container {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .home__data h1 {
+    font-size: 1.5rem;
+  }
+
+  .home__data p {
+    font-size: 1rem;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .home__img {
+    width: 90%;
+    height: auto;
+    margin: 20px auto 0;
+  }
+
+  /* ===== Varient Cards ===== */
+  .varient__container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .varient__card {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .varient__title {
+    font-size: 1.5rem;
+  }
+
+  .varient__subtitle {
+    font-size: 1rem;
+  }
+
+  /* ===== Market Section ===== */
+  .market__card {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .market__data,
+  .market__img {
+    width: 100%;
+  }
+
+  .market__title {
+    font-size: 1.5rem;
+  }
+
+  .market__description {
+    font-size: 1rem;
+  }
+
+  /* ===== Seasson Section ===== */
+  .seasson__title-2 {
+    font-size: 1.7rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .seasson__container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .seasson__card {
+    padding: 15px;
+  }
+
+  /* ===== Garden Section ===== */
+  .garden-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .garden-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .garden-card p {
+    font-size: 0.95rem;
+  }
+
+  /* ===== Order Form ===== */
+  .order-section {
+    padding: 30px 15px;
+  }
+
+  .order-form {
+    width: 100%;
+    padding: 0;
+  }
+
+  .order-form input,
+  .order-form select,
+  .order-form textarea {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .order-form button {
+    font-size: 1rem;
+    padding: 12px;
+  }
+}
+
